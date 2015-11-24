@@ -1,0 +1,291 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		52BB5E8B1C03E83F00C76B77 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52BB5E8A1C03E83F00C76B77 /* AppDelegate.swift */; };
+		52BB5E8D1C03E83F00C76B77 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52BB5E8C1C03E83F00C76B77 /* ViewController.swift */; };
+		52BB5E901C03E83F00C76B77 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52BB5E8E1C03E83F00C76B77 /* Main.storyboard */; };
+		52BB5E921C03E83F00C76B77 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52BB5E911C03E83F00C76B77 /* Assets.xcassets */; };
+		52BB5E951C03E83F00C76B77 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52BB5E931C03E83F00C76B77 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		52BB5E871C03E83F00C76B77 /* MyRealContactApplication.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyRealContactApplication.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		52BB5E8A1C03E83F00C76B77 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		52BB5E8C1C03E83F00C76B77 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		52BB5E8F1C03E83F00C76B77 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		52BB5E911C03E83F00C76B77 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		52BB5E941C03E83F00C76B77 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		52BB5E961C03E83F00C76B77 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		52BB5E841C03E83F00C76B77 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		52BB5E7E1C03E83F00C76B77 = {
+			isa = PBXGroup;
+			children = (
+				52BB5E891C03E83F00C76B77 /* MyRealContactApplication */,
+				52BB5E881C03E83F00C76B77 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		52BB5E881C03E83F00C76B77 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				52BB5E871C03E83F00C76B77 /* MyRealContactApplication.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		52BB5E891C03E83F00C76B77 /* MyRealContactApplication */ = {
+			isa = PBXGroup;
+			children = (
+				52BB5E8A1C03E83F00C76B77 /* AppDelegate.swift */,
+				52BB5E8C1C03E83F00C76B77 /* ViewController.swift */,
+				52BB5E8E1C03E83F00C76B77 /* Main.storyboard */,
+				52BB5E911C03E83F00C76B77 /* Assets.xcassets */,
+				52BB5E931C03E83F00C76B77 /* LaunchScreen.storyboard */,
+				52BB5E961C03E83F00C76B77 /* Info.plist */,
+			);
+			path = MyRealContactApplication;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		52BB5E861C03E83F00C76B77 /* MyRealContactApplication */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52BB5E991C03E83F00C76B77 /* Build configuration list for PBXNativeTarget "MyRealContactApplication" */;
+			buildPhases = (
+				52BB5E831C03E83F00C76B77 /* Sources */,
+				52BB5E841C03E83F00C76B77 /* Frameworks */,
+				52BB5E851C03E83F00C76B77 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyRealContactApplication;
+			productName = MyRealContactApplication;
+			productReference = 52BB5E871C03E83F00C76B77 /* MyRealContactApplication.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		52BB5E7F1C03E83F00C76B77 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Peter Flanagan";
+				TargetAttributes = {
+					52BB5E861C03E83F00C76B77 = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+				};
+			};
+			buildConfigurationList = 52BB5E821C03E83F00C76B77 /* Build configuration list for PBXProject "MyRealContactApplication" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 52BB5E7E1C03E83F00C76B77;
+			productRefGroup = 52BB5E881C03E83F00C76B77 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				52BB5E861C03E83F00C76B77 /* MyRealContactApplication */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		52BB5E851C03E83F00C76B77 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52BB5E951C03E83F00C76B77 /* LaunchScreen.storyboard in Resources */,
+				52BB5E921C03E83F00C76B77 /* Assets.xcassets in Resources */,
+				52BB5E901C03E83F00C76B77 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		52BB5E831C03E83F00C76B77 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52BB5E8D1C03E83F00C76B77 /* ViewController.swift in Sources */,
+				52BB5E8B1C03E83F00C76B77 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		52BB5E8E1C03E83F00C76B77 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				52BB5E8F1C03E83F00C76B77 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		52BB5E931C03E83F00C76B77 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				52BB5E941C03E83F00C76B77 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		52BB5E971C03E83F00C76B77 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		52BB5E981C03E83F00C76B77 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		52BB5E9A1C03E83F00C76B77 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MyRealContactApplication/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.turboflanagan.MyRealContactApplication;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		52BB5E9B1C03E83F00C76B77 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MyRealContactApplication/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.turboflanagan.MyRealContactApplication;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		52BB5E821C03E83F00C76B77 /* Build configuration list for PBXProject "MyRealContactApplication" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52BB5E971C03E83F00C76B77 /* Debug */,
+				52BB5E981C03E83F00C76B77 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52BB5E991C03E83F00C76B77 /* Build configuration list for PBXNativeTarget "MyRealContactApplication" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52BB5E9A1C03E83F00C76B77 /* Debug */,
+				52BB5E9B1C03E83F00C76B77 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 52BB5E7F1C03E83F00C76B77 /* Project object */;
+}
